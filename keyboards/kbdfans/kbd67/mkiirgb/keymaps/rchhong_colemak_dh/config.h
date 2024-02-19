@@ -1,4 +1,4 @@
-/* Copyright 2018 MechMerlin
+/* Copyright 2018 rchhong
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,3 +20,12 @@
 
 // Enable cmd-option-escape on mac.
 #define GRAVE_ESC_ALT_OVERRIDE
+
+// The default lighting mode is just white background
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_LIGHT
+#define RGBLIGHT_DEFAULT_HUE 0
+#define RGBLIGHT_DEFAULT_SAT 0
+#define RGBLIGHT_DEFAULT_VAL RGBLIGHT_LIMIT_VAL
+
+// Turn off lighting initially
+#define RGBLIGHT_DEFAULT_ON false
