@@ -52,3 +52,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLED_NUM 14    // Number of LEDs
 #define RGBLIGHT_SLEEP
 */
+#define GRAVE_ESC_ALT_OVERRIDE
